@@ -1,0 +1,26 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+form input{
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+button{
+    background-color: green;
+    margin-top: 10px;
+}
